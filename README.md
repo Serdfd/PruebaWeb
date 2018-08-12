@@ -1,7 +1,7 @@
 # Prueba Web - The Ninja Store #
 
 Prueba de automatización con varios escenarios.
-Proyecto creado [usando](https://github.com/serenity-bdd/serenity-cucumber-starter)
+Proyecto creado usando [serenity cucumber starter](https://github.com/serenity-bdd/serenity-cucumber-starter)
 
 ### Ejecutar ###
 
