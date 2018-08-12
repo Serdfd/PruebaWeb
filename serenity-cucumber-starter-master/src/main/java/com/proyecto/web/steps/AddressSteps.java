@@ -6,9 +6,7 @@ import com.proyecto.web.pages.AddressPage;
 import net.thucydides.core.annotations.Step;
 import net.thucydides.core.steps.stepdata.CSVTestDataSource;
 import net.thucydides.core.steps.stepdata.TestDataSource;
-
 import java.io.IOException;
-import java.util.Map;
 
 public class AddressSteps {
     private AddressPage addressPage;
