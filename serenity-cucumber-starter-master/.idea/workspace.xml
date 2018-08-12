@@ -2,17 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d3576569-8f52-4a3c-81c5-b657185b2e7f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/serenity.properties" beforeDir="false" afterPath="$PROJECT_DIR$/serenity.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/proyecto/web/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/proyecto/web/models/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/proyecto/web/models/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/proyecto/web/pages/AddressPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/proyecto/web/pages/AddressPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/proyecto/web/pages/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/proyecto/web/pages/LoginPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/proyecto/web/pages/RegisterAccountPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/proyecto/web/pages/RegisterAccountPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/proyecto/web/steps/LoginSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/proyecto/web/steps/LoginSteps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/proyecto/web/steps/RegisterAccountSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/proyecto/web/steps/RegisterAccountSteps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/proyecto/web/BaseStepDefinitions.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/proyecto/web/StepDefinitions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/proyecto/web/StepDefinitions.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/RegisterNewAddress.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/RegisterNewAddress.feature" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -77,7 +68,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="26" />
+          <entry key="java" value="27" />
           <entry key="md" value="1" />
           <entry key="properties" value="2" />
           <entry key="xml" value="1" />
@@ -85,7 +76,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="26" />
+          <entry key="JAVA" value="27" />
           <entry key="PLAIN_TEXT" value="1" />
           <entry key="Properties" value="2" />
           <entry key="XML" value="1" />
@@ -94,14 +85,14 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="feature" value="310" />
-          <entry key="java" value="448" />
+          <entry key="java" value="481" />
           <entry key="properties" value="121" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="Cucumber" value="310" />
-          <entry key="JAVA" value="448" />
+          <entry key="JAVA" value="481" />
           <entry key="Properties" value="121" />
         </counts>
       </usages-collector>
@@ -127,20 +118,26 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/proyecto/web/StepDefinitions.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" selection-start-line="4" selection-end-line="4" />
+            <state relative-caret-position="187">
+              <caret line="15" column="5" lean-forward="true" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/serenity.properties">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/proyecto/web/BaseStepDefinitions.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="36" lean-forward="true" selection-start-line="9" selection-start-column="36" selection-end-line="9" selection-end-column="36" />
+            <state relative-caret-position="271">
+              <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -180,12 +177,13 @@
         <option value="$PROJECT_DIR$/src/main/java/com/proyecto/web/steps/LoginSteps.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/proyecto/web/util/Constants.java" />
         <option value="$PROJECT_DIR$/src/test/resources/features/RegisterNewAddress.feature" />
-        <option value="$PROJECT_DIR$/src/test/java/com/proyecto/web/StepDefinitions.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/proyecto/web/models/User.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/proyecto/web/pages/AddressPage.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/proyecto/web/pages/LoginPage.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/proyecto/web/pages/RegisterAccountPage.java" />
         <option value="$PROJECT_DIR$/serenity.properties" />
+        <option value="$PROJECT_DIR$/src/test/java/com/proyecto/web/StepDefinitions.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/proyecto/web/BaseStepDefinitions.java" />
       </list>
     </option>
   </component>
@@ -255,6 +253,15 @@
               <item name="proyectoWeb" type="b2602c69:ProjectViewProjectNode" />
               <item name="serenity-cucumber-starter-master" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="proyectoWeb" type="b2602c69:ProjectViewProjectNode" />
+              <item name="serenity-cucumber-starter-master" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -303,7 +310,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1534112335082" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1534113075081" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
@@ -772,17 +779,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/proyecto/web/StepDefinitions.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/serenity.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="9" column="36" lean-forward="true" selection-start-line="9" selection-start-column="36" selection-end-line="9" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/proyecto/web/BaseStepDefinitions.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="271">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/proyecto/web/StepDefinitions.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="15" column="5" lean-forward="true" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

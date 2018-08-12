@@ -1,28 +1,13 @@
 package com.proyecto.web;
 
-import com.proyecto.web.steps.*;
 import cucumber.api.DataTable;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
-import net.thucydides.core.annotations.Steps;
 
 import java.util.List;
 
-public class StepDefinitions {
-
-    @Steps
-    private LoginSteps loginSteps;
-    @Steps
-    private UserHomePageSteps userHomePageSteps;
-    @Steps
-    private AddressBookSteps addressBookSteps;
-    @Steps
-    private AddressSteps addressSteps;
-    @Steps
-    private RegisterAccountSteps registerAccountSteps;
-    @Steps
-    private SuccesAccountSteps succesAccountSteps;
+public class StepDefinitions extends BaseStepDefinitions{
 
     @Given("^I am logged in the Ninja Store page with \"([^\"]*)\" and \"([^\"]*)\"$")
     public void iAmLoggedInTheNinjaStorePageWithAnd(String email, String password) throws Throwable {
