@@ -6,7 +6,14 @@ Feature: RegisterNewAddressFeature
     When I add a new book address
     Then I see that the new address was successfully added
 
-  Scenario: Register a new User correct|incorrect
+  Scenario: Login failed
+    Given I am in the Ninja Store Login page
+    When I enter the following for login
+      | email            | password |
+      | test999@test.com | qwerty   |
+    Then I see the message "Warning: No match for E-Mail Address and/or Password."
+
+  Scenario: Register a new User correct
     Given I dont have a user in the Ninja Store page
     When I create a new user
     Then I see that the new user was successfully created

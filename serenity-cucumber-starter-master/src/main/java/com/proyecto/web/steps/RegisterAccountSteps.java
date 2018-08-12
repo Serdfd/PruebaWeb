@@ -25,7 +25,7 @@ public class RegisterAccountSteps {
         user.setEmail("test1@test.com");
         user.setTelephone("123456");
         user.setPassword("123456");
-        user.setSuscribed(true);
+        user.setSubscribed(true);
 
         return user;
     }

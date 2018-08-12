@@ -20,6 +20,11 @@ public class LoginSteps {
         loginPage.login();
     }
 
+    @Step
+    public void checkInvalidLogin(String status){
+        loginPage.checkLoginStatus(status,"Login OK!");
+    }
+
     private User getUser(String email,String password){
         User user = new User();
         user.setEmail(email);

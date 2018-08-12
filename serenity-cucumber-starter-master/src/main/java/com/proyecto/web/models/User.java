@@ -6,7 +6,7 @@ public class User {
     private String email;
     private String telephone;
     private String password;
-    private boolean isSuscribed;
+    private boolean isSubscribed;
 
     public User() {
     }
@@ -40,12 +40,12 @@ public class User {
         this.telephone = telephone;
     }
 
-    public boolean isSuscribed() {
-        return isSuscribed;
+    public boolean isSubscribed() {
+        return isSubscribed;
     }
 
-    public void setSuscribed(boolean suscribed) {
-        isSuscribed = suscribed;
+    public void setSubscribed(boolean subscribed) {
+        isSubscribed = subscribed;
     }
 
     public String getEmail() {

@@ -8,7 +8,7 @@ import net.serenitybdd.core.pages.WebElementFacade;
 public class AddressPage extends PageObject {
 
     @FindBy(id = "input-firstname")
-    private WebElementFacade firsName;
+    private WebElementFacade firstName;
 
     @FindBy(id = "input-lastname")
     private WebElementFacade lastName;
@@ -53,7 +53,7 @@ public class AddressPage extends PageObject {
     }
 
     private void setAddressData(Address address){
-        firsName.sendKeys(address.getFirstName());
+        firstName.sendKeys(address.getFirstName());
         lastName.sendKeys(address.getLastName());
         company.sendKeys(address.getCompany());
         address1.sendKeys(address.getAddress1());

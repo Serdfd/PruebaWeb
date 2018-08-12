@@ -10,7 +10,7 @@ import net.thucydides.core.annotations.DefaultUrl;
 public class RegisterAccountPage extends PageObject {
 
     @FindBy(id = "input-firstname")
-    private WebElementFacade firsName;
+    private WebElementFacade firstName;
 
     @FindBy(id = "input-lastname")
     private WebElementFacade lastName;
@@ -28,10 +28,10 @@ public class RegisterAccountPage extends PageObject {
     private WebElementFacade confirm;
 
     @FindBy(xpath = "//*[@id=\"content\"]/form/fieldset[3]/div/div/label[1]/input")
-    private WebElementFacade yesSuscribe;
+    private WebElementFacade yesSubscribe;
 
     @FindBy(xpath = "//*[@id=\"content\"]/form/fieldset[3]/div/div/label[2]/input")
-    private WebElementFacade noSuscribe;
+    private WebElementFacade noSubscribe;
 
     @FindBy(name = "agree")
     private WebElementFacade privatePolicy;
@@ -49,18 +49,18 @@ public class RegisterAccountPage extends PageObject {
     }
 
     private void setUserData(User user){
-        firsName.sendKeys(user.getFirstName());
+        firstName.sendKeys(user.getFirstName());
         lastName.sendKeys(user.getLastName());
         email.sendKeys(user.getEmail());
         telephone.sendKeys(user.getTelephone());
         password.sendKeys(user.getPassword());
         confirm.sendKeys(user.getPassword());
 
-        if (user.isSuscribed()){
-            yesSuscribe.click();
+        if (user.isSubscribed()){
+            yesSubscribe.click();
         }
         else{
-            noSuscribe.click();
+            noSubscribe.click();
         }
 
         privatePolicy.click();
