@@ -22,7 +22,7 @@ public class RegisterAccountSteps {
         User user = new User();
         user.setFirstName("First Name");
         user.setLastName("Last Name");
-        user.setEmail("test1@test.com");
+        user.setEmail("test9999@test.com");
         user.setTelephone("123456");
         user.setPassword("123456");
         user.setSubscribed(true);
